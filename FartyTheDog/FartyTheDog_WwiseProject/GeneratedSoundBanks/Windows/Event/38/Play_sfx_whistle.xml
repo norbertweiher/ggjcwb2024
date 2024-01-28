@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3860292184" Type="Event" GUID="{256960CE-1C36-481D-80C0-8F29EE3C5667}" Language="SFX" Hash="{6469B955-8CD1-F864-04C5-6760338D6B8D}">
+		<SoundBank Id="3860292184" Type="Event" GUID="{256960CE-1C36-481D-80C0-8F29EE3C5667}" Language="SFX" Hash="{E9557435-C524-76AC-496E-2E2247BAA25F}">
 			<ObjectPath>Play_sfx_whistle</ObjectPath>
 			<ShortName>Play_sfx_whistle</ShortName>
 			<Path>Event/38/Play_sfx_whistle.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{669A8627-602B-C872-5520-37B3E3638387}</FileHash>
+	<FileHash>{E25BEE70-8CB1-8D53-C455-6F1CFA7D4C2F}</FileHash>
 </SoundBanksInfo>

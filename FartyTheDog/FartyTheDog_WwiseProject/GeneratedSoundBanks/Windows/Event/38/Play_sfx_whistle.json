@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{256960CE-1C36-481D-80C0-8F29EE3C5667}",
     "Language": "SFX",
-    "Hash": "{6469B955-8CD1-F864-04C5-6760338D6B8D}",
+    "Hash": "{E9557435-C524-76AC-496E-2E2247BAA25F}",
     "ObjectPath": "Play_sfx_whistle",
     "ShortName": "Play_sfx_whistle",
     "Path": "Event/38/Play_sfx_whistle.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{5A875D84-A259-F267-2F6B-E45556238577}"
+  "FileHash": "{C034EEF7-8230-86BE-754C-76041F5051D1}"
  }
 }

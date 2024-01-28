@@ -4943,3 +4943,351 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.28-17.39.06:067][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
 [2024.01.28-17.39.06:075][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
 [2024.01.28-17.39.06:129][282]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2024.01.28-17.40.30:954][315]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.28-17.40.30:959][315]LogContentBundle: [FG_Sandbox(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.28-17.40.30:959][315]LogWorldPartition: Display: GenerateStreaming for 'FG_Sandbox' started...
+[2024.01.28-17.40.30:967][315]LogWorldPartition: Display: GenerateStreaming for 'FG_Sandbox' took 8 ms (total: 183 ms)
+[2024.01.28-17.40.30:967][315]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-17.40.30:967][315]PIE: New page: PIE session: FG_Sandbox (Jan 28, 2024, 11:40:30 AM)
+[2024.01.28-17.40.30:967][315]LogPlayLevel: Display: Creating online subsystem for client :Context_35
+[2024.01.28-17.40.30:969][315]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.01.28-17.40.30:989][316]LogPlayLevel: Creating play world package: /Game/FartyTheDog/UEDPIE_0_FG_Sandbox
+[2024.01.28-17.40.31:011][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021774s)
+[2024.01.28-17.40.31:011][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FartyTheDog/FG_Sandbox.FG_Sandbox to /Game/FartyTheDog/UEDPIE_0_FG_Sandbox.FG_Sandbox (0.021810s)
+[2024.01.28-17.40.31:024][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.01.28-17.40.31:026][316]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-17.40.31:026][316]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-17.40.31:026][316]LogAIModule: Creating AISystem for world FG_Sandbox
+[2024.01.28-17.40.31:027][316]LogWorldPartition: ULevel::OnLevelLoaded(FG_Sandbox)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.28-17.40.31:027][316]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.28-17.40.31:027][316]LogWorldPartition: UWorldPartition::Initialize : World = FG_Sandbox, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.28-17.40.31:027][316]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.28-17.40.31:032][316]LogContentBundle: [FG_Sandbox(Standalone)] Creating new contrainer.
+[2024.01.28-17.40.31:032][316]LogWorldPartition: Display: WorldPartition initialize took 6 ms (total: 1.53 sec)
+[2024.01.28-17.40.31:032][316]LogPlayLevel: PIE: World Init took: (0.007272s)
+[2024.01.28-17.40.31:032][316]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2024.01.28-17.40.31:032][316]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-17.40.31:032][316]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-17.40.31:032][316]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-17.40.31:032][316]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-17.40.31:032][316]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.28-17.40.31:032][316]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-17.40.31:032][316]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.28-17.40.31:033][316]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-17.40.31:033][316]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-17.40.31:033][316]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-17.40.31:033][316]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-17.40.31:035][316]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.28-17.40.31:048][316]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (High Definition Audio Device)
+[2024.01.28-17.40.31:048][316]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-17.40.31:048][316]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-17.40.31:048][316]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-17.40.31:048][316]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2024.01.28-17.40.31:048][316]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2024.01.28-17.40.31:050][316]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2024.01.28-17.40.31:050][316]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2024.01.28-17.40.31:050][316]LogInit: FAudioDevice initialized with ID 24.
+[2024.01.28-17.40.31:050][316]LogAudio: Display: Audio Device (ID: 24) registered with world 'FG_Sandbox'.
+[2024.01.28-17.40.31:050][316]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2024.01.28-17.40.31:083][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-17.40.31:084][316]LogLoad: Game class is 'BP_FartyGameMode_C'
+[2024.01.28-17.40.31:102][316]LogWorld: Bringing World /Game/FartyTheDog/UEDPIE_0_FG_Sandbox.FG_Sandbox up for play (max tick rate 0) at 2024.01.28-14.40.31
+[2024.01.28-17.40.31:102][316]LogWorld: Bringing up level for play took: 0.018412
+[2024.01.28-17.40.31:107][316]PIE: Server logged in
+[2024.01.28-17.40.31:108][316]PIE: Play in editor total start time 0.15 seconds.
+[2024.01.28-17.40.31:120][316]LogViewport: Scene viewport resized to 1351x794, mode Windowed.
+[2024.01.28-17.40.33:020][514]LogBlueprintUserMessages: [AnimNotify_AkEvent_C_0] WARNING: AkComponent has been created in the notify. It will be using default values for all properties. 
+[2024.01.28-17.40.33:020][514]LogBlueprintUserMessages: [AnimNotify_AkEvent_C_0] WARNING: Should you wish to use different values, please attach an AkComponent to the BP_Ozzy_Character.CharacterMesh0 Ozzy_Mesh component on the BP_Ozzy_Character actor beforehand.
+[2024.01.28-17.40.37:002][967]LogBlueprintUserMessages: [AnimNotify_AkEvent_C_0] WARNING: AkComponent has been created in the notify. It will be using default values for all properties. 
+[2024.01.28-17.40.37:002][967]LogBlueprintUserMessages: [AnimNotify_AkEvent_C_0] WARNING: Should you wish to use different values, please attach an AkComponent to the BP_PoliceOfficer2.CharacterMesh0 Base_Mesh component on the BP_PoliceOfficer2 actor beforehand.
+[2024.01.28-17.40.38:386][124]LogBlueprintUserMessages: [BP_PoliceOfficer2_C_UAID_F4B52008433FE6D301_1536011456] can attack again
+[2024.01.28-17.40.40:347][345]LogBlueprintUserMessages: [BP_PoliceOfficer2_C_UAID_F4B52008433FE6D301_1536011456] can attack again
+[2024.01.28-17.40.43:120][646]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-17.40.43:120][646]LogWorld: BeginTearingDown for /Game/FartyTheDog/UEDPIE_0_FG_Sandbox
+[2024.01.28-17.40.43:120][646]LogSlate: Window 'FartyTheDog Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.28-17.40.43:128][646]LogWorld: UWorld::CleanupWorld for FG_Sandbox, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-17.40.43:130][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-17.40.43:131][646]LogContentBundle: [FG_Sandbox(Standalone)] Deleting container.
+[2024.01.28-17.40.43:134][646]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-17.40.43:138][646]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-17.40.43:153][646]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2024.01.28-17.40.43:153][646]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.01.28-17.40.43:154][646]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.01.28-17.40.43:163][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.01.28-17.40.43:217][647]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.01.28-17.40.48:035][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.01.28-17.40.48:087][156]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-17.40.48:087][156]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FartyTheDog/LV_MainMenu.LV_MainMenu
+[2024.01.28-17.40.48:087][156]Cmd: MAP LOAD FILE="../../../../Projects/ggjcwb2024/FartyTheDog/Content/FartyTheDog/LV_MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.01.28-17.40.48:087][156]LightingResults: New page: Lighting Build
+[2024.01.28-17.40.48:088][156]LoadErrors: New page: Loading map: LV_MainMenu.umap
+[2024.01.28-17.40.48:107][156]LogWorld: UWorld::CleanupWorld for FG_Sandbox, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-17.40.48:108][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-17.40.48:113][156]LogContentBundle: [FG_Sandbox(Standalone)] Deleting container.
+[2024.01.28-17.40.48:113][156]MapCheck: New page: Map Check
+[2024.01.28-17.40.48:113][156]LightingResults: New page: Lighting Build
+[2024.01.28-17.40.48:127][156]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.28-17.40.48:139][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.01.28-17.40.48:142][156]LogWorld: UWorld::CleanupWorld for LV_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-17.40.48:142][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-17.40.48:156][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.01.28-17.40.48:168][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.01.28-17.40.48:173][156]LogAudio: Display: Audio Device (ID: 1) registered with world 'LV_MainMenu'.
+[2024.01.28-17.40.48:173][156]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-17.40.48:173][156]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-17.40.48:174][156]LogAIModule: Creating AISystem for world LV_MainMenu
+[2024.01.28-17.40.48:196][156]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.28-17.40.48:208][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.01.28-17.40.48:212][156]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.28-17.40.48:212][156]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.061ms to complete.
+[2024.01.28-17.40.49:353][279]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.28-17.40.49:359][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-17.40.49:359][279]PIE: New page: PIE session: LV_MainMenu (Jan 28, 2024, 11:40:49 AM)
+[2024.01.28-17.40.49:359][279]LogPlayLevel: Display: Creating online subsystem for client :Context_36
+[2024.01.28-17.40.49:361][279]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.01.28-17.40.49:367][280]LogPlayLevel: Creating play world package: /Game/FartyTheDog/UEDPIE_0_LV_MainMenu
+[2024.01.28-17.40.49:368][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001057s)
+[2024.01.28-17.40.49:368][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FartyTheDog/LV_MainMenu.LV_MainMenu to /Game/FartyTheDog/UEDPIE_0_LV_MainMenu.LV_MainMenu (0.001093s)
+[2024.01.28-17.40.49:380][280]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.01.28-17.40.49:381][280]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-17.40.49:381][280]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-17.40.49:382][280]LogAIModule: Creating AISystem for world LV_MainMenu
+[2024.01.28-17.40.49:382][280]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2024.01.28-17.40.49:382][280]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.01.28-17.40.49:382][280]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-17.40.49:382][280]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-17.40.49:382][280]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-17.40.49:382][280]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-17.40.49:382][280]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.28-17.40.49:382][280]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-17.40.49:382][280]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.28-17.40.49:382][280]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-17.40.49:382][280]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-17.40.49:383][280]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-17.40.49:383][280]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-17.40.49:384][280]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.28-17.40.49:398][280]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (High Definition Audio Device)
+[2024.01.28-17.40.49:398][280]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-17.40.49:398][280]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-17.40.49:398][280]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-17.40.49:398][280]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2024.01.28-17.40.49:399][280]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2024.01.28-17.40.49:399][280]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.01.28-17.40.49:399][280]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2024.01.28-17.40.49:399][280]LogInit: FAudioDevice initialized with ID 25.
+[2024.01.28-17.40.49:399][280]LogAudio: Display: Audio Device (ID: 25) registered with world 'LV_MainMenu'.
+[2024.01.28-17.40.49:399][280]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.01.28-17.40.49:432][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-17.40.49:432][280]LogLoad: Game class is 'BP_MainMenu_C'
+[2024.01.28-17.40.49:432][280]LogWorld: Bringing World /Game/FartyTheDog/UEDPIE_0_LV_MainMenu.LV_MainMenu up for play (max tick rate 0) at 2024.01.28-14.40.49
+[2024.01.28-17.40.49:433][280]LogWorld: Bringing up level for play took: 0.000359
+[2024.01.28-17.40.49:437][280]PIE: Server logged in
+[2024.01.28-17.40.49:438][280]PIE: Play in editor total start time 0.08 seconds.
+[2024.01.28-17.40.49:444][280]LogViewport: Scene viewport resized to 1351x794, mode Windowed.
+[2024.01.28-17.40.50:442][391]LogViewport: Scene viewport resized to 1920x998, mode Windowed.
+[2024.01.28-17.40.52:806][669]LogNet: Browse: /Game/FartyTheDog/FG_Sandbox
+[2024.01.28-17.40.52:806][669]LogLoad: LoadMap: /Game/FartyTheDog/FG_Sandbox
+[2024.01.28-17.40.52:806][669]LogWorld: BeginTearingDown for /Game/FartyTheDog/UEDPIE_0_LV_MainMenu
+[2024.01.28-17.40.52:806][669]LogActorComponent: Error: May not destroy component AkComponent /Game/FartyTheDog/UEDPIE_0_LV_MainMenu.LV_MainMenu:PersistentLevel.WorldSettings.AkComponent_0 owned by WorldSettings /Game/FartyTheDog/UEDPIE_0_LV_MainMenu.LV_MainMenu:PersistentLevel.WorldSettings.
+[2024.01.28-17.40.52:806][669]LogWorld: UWorld::CleanupWorld for LV_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-17.40.52:806][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-17.40.52:851][669]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.28-17.40.52:853][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.01.28-17.40.52:868][669]LogAudio: Display: Audio Device (ID: 25) registered with world 'FG_Sandbox'.
+[2024.01.28-17.40.52:868][669]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-17.40.52:868][669]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-17.40.52:869][669]LogAIModule: Creating AISystem for world FG_Sandbox
+[2024.01.28-17.40.52:869][669]LogWorldPartition: ULevel::OnLevelLoaded(FG_Sandbox)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.28-17.40.52:869][669]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.28-17.40.52:869][669]LogWorldPartition: UWorldPartition::Initialize : World = FG_Sandbox, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.01.28-17.40.52:869][669]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.28-17.40.52:876][669]LogWorldPartition: Display: GenerateStreaming for 'FG_Sandbox' started...
+[2024.01.28-17.40.53:040][669]LogWorldPartition: Display: GenerateStreaming for 'FG_Sandbox' took 163 ms (total: 347 ms)
+[2024.01.28-17.40.53:046][669]LogContentBundle: [FG_Sandbox(Standalone)] Creating new contrainer.
+[2024.01.28-17.40.53:046][669]LogWorldPartition: Display: WorldPartition initialize took 177 ms (total: 1.71 sec)
+[2024.01.28-17.40.53:046][669]LogPlayLevel: PIE: World Init took: (0.178124s)
+[2024.01.28-17.40.53:046][669]LogLoad: Game class is 'BP_FartyGameMode_C'
+[2024.01.28-17.40.53:061][669]LogWorld: Bringing World /Game/FartyTheDog/UEDPIE_0_FG_Sandbox.FG_Sandbox up for play (max tick rate 0) at 2024.01.28-14.40.53
+[2024.01.28-17.40.53:062][669]LogWorld: Bringing up level for play took: 0.015244
+[2024.01.28-17.40.53:062][669]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.01.28-17.40.53:063][669]LogLoad: Took 0.257211 seconds to LoadMap(/Game/FartyTheDog/FG_Sandbox)
+[2024.01.28-17.40.54:920][862]LogBlueprintUserMessages: [AnimNotify_AkEvent_C_0] WARNING: AkComponent has been created in the notify. It will be using default values for all properties. 
+[2024.01.28-17.40.54:920][862]LogBlueprintUserMessages: [AnimNotify_AkEvent_C_0] WARNING: Should you wish to use different values, please attach an AkComponent to the BP_Ozzy_Character.CharacterMesh0 Ozzy_Mesh component on the BP_Ozzy_Character actor beforehand.
+[2024.01.28-17.40.57:357][126]LogBlueprintUserMessages: [AnimNotify_AkEvent_C_0] WARNING: AkComponent has been created in the notify. It will be using default values for all properties. 
+[2024.01.28-17.40.57:357][126]LogBlueprintUserMessages: [AnimNotify_AkEvent_C_0] WARNING: Should you wish to use different values, please attach an AkComponent to the BP_PoliceOfficer2.CharacterMesh0 Base_Mesh component on the BP_PoliceOfficer2 actor beforehand.
+[2024.01.28-17.40.58:750][274]LogBlueprintUserMessages: [BP_PoliceOfficer2_C_UAID_F4B52008433FE6D301_1536011456] can attack again
+[2024.01.28-17.41.00:745][492]LogBlueprintUserMessages: [BP_PoliceOfficer2_C_UAID_F4B52008433FE6D301_1536011456] can attack again
+[2024.01.28-17.41.04:329][883]LogBlueprintUserMessages: [BP_PoliceOfficer2_C_UAID_F4B52008433FE6D301_1536011456] can attack again
+[2024.01.28-17.41.05:847][ 47]LogBlueprintUserMessages: [BP_PoliceOfficer2_C_UAID_F4B52008433FE6D301_1536011456] can attack again
+[2024.01.28-17.41.07:331][206]LogBlueprintUserMessages: [BP_PoliceOfficer2_C_UAID_F4B52008433FE6D301_1536011456] can attack again
+[2024.01.28-17.41.09:135][401]LogBlueprintUserMessages: [BP_PoliceOfficer2_C_UAID_F4B52008433FE6D301_1536011456] can attack again
+[2024.01.28-17.41.11:141][625]LogBlueprintUserMessages: [BP_PoliceOfficer2_C_UAID_F4B52008433FE6D301_1536011456] can attack again
+[2024.01.28-17.41.11:680][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-17.41.11:680][683]LogWorld: BeginTearingDown for /Game/FartyTheDog/UEDPIE_0_FG_Sandbox
+[2024.01.28-17.41.11:681][683]LogSlate: Window 'FartyTheDog Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.28-17.41.11:685][683]LogWorld: UWorld::CleanupWorld for FG_Sandbox, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-17.41.11:687][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-17.41.11:689][683]LogContentBundle: [FG_Sandbox(Standalone)] Deleting container.
+[2024.01.28-17.41.11:692][683]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-17.41.11:696][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-17.41.11:710][683]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.01.28-17.41.11:710][683]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.01.28-17.41.11:711][683]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.01.28-17.41.11:725][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.28-17.41.11:751][684]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.01.28-17.41.18:108][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.01.28-17.41.18:178][430]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-17.41.18:178][430]LogWorldPartition: ULevel::OnLevelLoaded(FG_Sandbox_Kleber)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.01.28-17.41.18:178][430]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.28-17.41.18:178][430]LogWorldPartition: UWorldPartition::Initialize : World = FG_Sandbox_Kleber, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.28-17.41.18:189][430]LogContentBundle: [FG_Sandbox_Kleber(Standalone)] Creating new contrainer.
+[2024.01.28-17.41.18:189][430]LogWorldPartition: Display: WorldPartition initialize took 10 ms (total: 1.72 sec)
+[2024.01.28-17.41.18:192][430]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FartyTheDog/FG_Sandbox_Kleber.FG_Sandbox_Kleber
+[2024.01.28-17.41.18:192][430]Cmd: MAP LOAD FILE="../../../../Projects/ggjcwb2024/FartyTheDog/Content/FartyTheDog/FG_Sandbox_Kleber.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.01.28-17.41.18:192][430]LightingResults: New page: Lighting Build
+[2024.01.28-17.41.18:192][430]LoadErrors: New page: Loading map: FG_Sandbox_Kleber.umap
+[2024.01.28-17.41.18:241][430]LogWorld: UWorld::CleanupWorld for LV_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-17.41.18:241][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-17.41.18:241][430]MapCheck: New page: Map Check
+[2024.01.28-17.41.18:241][430]LightingResults: New page: Lighting Build
+[2024.01.28-17.41.18:253][430]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.28-17.41.18:255][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.01.28-17.41.18:257][430]LogWorld: UWorld::CleanupWorld for FG_Sandbox_Kleber, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-17.41.18:257][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-17.41.18:257][430]LogContentBundle: [FG_Sandbox_Kleber(Standalone)] Deleting container.
+[2024.01.28-17.41.18:270][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.01.28-17.41.18:282][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.01.28-17.41.18:297][430]LogAudio: Display: Audio Device (ID: 1) registered with world 'FG_Sandbox_Kleber'.
+[2024.01.28-17.41.18:297][430]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-17.41.18:297][430]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-17.41.18:299][430]LogAIModule: Creating AISystem for world FG_Sandbox_Kleber
+[2024.01.28-17.41.18:299][430]LogWorldPartition: ULevel::OnLevelLoaded(FG_Sandbox_Kleber)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.01.28-17.41.18:299][430]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.28-17.41.18:299][430]LogWorldPartition: UWorldPartition::Initialize : World = FG_Sandbox_Kleber, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.28-17.41.18:309][430]LogContentBundle: [FG_Sandbox_Kleber(Standalone)] Creating new contrainer.
+[2024.01.28-17.41.18:309][430]LogWorldPartition: Display: WorldPartition initialize took 10 ms (total: 1.73 sec)
+[2024.01.28-17.41.18:337][430]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.28-17.41.18:337][430]LogNavigation: Warning: Recreating dtNavMesh instance due mismatch in number of bytes required to store serialized maxTiles (16, 4 bits) vs calculated maxtiles (24, 5 bits)
+[2024.01.28-17.41.18:352][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.28-17.41.18:357][430]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.28-17.41.18:357][430]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.233ms to complete.
+[2024.01.28-17.41.20:195][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.01.28-17.41.20:244][619]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-17.41.20:244][619]LogWorldPartition: ULevel::OnLevelLoaded(FG_Sandbox)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.01.28-17.41.20:244][619]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.28-17.41.20:244][619]LogWorldPartition: UWorldPartition::Initialize : World = FG_Sandbox, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.28-17.41.20:509][619]LogContentBundle: [FG_Sandbox(Standalone)] Creating new contrainer.
+[2024.01.28-17.41.20:509][619]LogWorldPartition: Display: WorldPartition initialize took 264 ms (total: 2.00 sec)
+[2024.01.28-17.41.20:522][619]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FartyTheDog/FG_Sandbox.FG_Sandbox
+[2024.01.28-17.41.20:522][619]Cmd: MAP LOAD FILE="../../../../Projects/ggjcwb2024/FartyTheDog/Content/FartyTheDog/FG_Sandbox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.01.28-17.41.20:522][619]LightingResults: New page: Lighting Build
+[2024.01.28-17.41.20:522][619]LoadErrors: New page: Loading map: FG_Sandbox.umap
+[2024.01.28-17.41.20:564][619]LogWorld: UWorld::CleanupWorld for FG_Sandbox_Kleber, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-17.41.20:564][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-17.41.20:565][619]LogContentBundle: [FG_Sandbox_Kleber(Standalone)] Deleting container.
+[2024.01.28-17.41.20:565][619]MapCheck: New page: Map Check
+[2024.01.28-17.41.20:565][619]LightingResults: New page: Lighting Build
+[2024.01.28-17.41.20:581][619]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.28-17.41.20:584][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.01.28-17.41.20:586][619]LogWorld: UWorld::CleanupWorld for FG_Sandbox, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-17.41.20:587][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-17.41.20:590][619]LogContentBundle: [FG_Sandbox(Standalone)] Deleting container.
+[2024.01.28-17.41.20:612][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.01.28-17.41.20:624][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.01.28-17.41.20:643][619]LogAudio: Display: Audio Device (ID: 1) registered with world 'FG_Sandbox'.
+[2024.01.28-17.41.20:643][619]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-17.41.20:643][619]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-17.41.20:643][619]LogAIModule: Creating AISystem for world FG_Sandbox
+[2024.01.28-17.41.20:644][619]LogWorldPartition: ULevel::OnLevelLoaded(FG_Sandbox)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.01.28-17.41.20:644][619]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.28-17.41.20:644][619]LogWorldPartition: UWorldPartition::Initialize : World = FG_Sandbox, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.28-17.41.20:905][619]LogContentBundle: [FG_Sandbox(Standalone)] Creating new contrainer.
+[2024.01.28-17.41.20:906][619]LogWorldPartition: Display: WorldPartition initialize took 261 ms (total: 2.26 sec)
+[2024.01.28-17.41.20:955][619]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.28-17.41.20:976][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.01.28-17.41.20:980][619]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.28-17.41.20:981][619]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.83ms to complete.
+[2024.01.28-17.41.28:562][476]Cmd: EDIT COPY
+[2024.01.28-17.41.28:824][507]Cmd: EDIT PASTE
+[2024.01.28-17.41.37:091][465]Cmd: EDIT PASTE
+[2024.01.28-17.41.49:916][927]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.28-17.41.49:963][927]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FartyTheDog/FG_Sandbox/5/JZ/N3O5ZGNPBXIOQJ79G0YGOA
+[2024.01.28-17.41.49:963][927]LogSavePackage: Moving '../../../../Projects/ggjcwb2024/FartyTheDog/Saved/N3O5ZGNPBXIOQJ79G0YGOAE512A235409FF5070FDDCFA4DDA4BDE5.tmp' to '../../../../Projects/ggjcwb2024/FartyTheDog/Content/__ExternalActors__/FartyTheDog/FG_Sandbox/5/JZ/N3O5ZGNPBXIOQJ79G0YGOA.uasset'
+[2024.01.28-17.41.49:965][927]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FartyTheDog/FG_Sandbox/5/VB/DS3RLPEED3WQVSFQMIPRFI
+[2024.01.28-17.41.49:965][927]LogSavePackage: Moving '../../../../Projects/ggjcwb2024/FartyTheDog/Saved/DS3RLPEED3WQVSFQMIPRFI2030A4C2403FFB987AD92BABA4175823.tmp' to '../../../../Projects/ggjcwb2024/FartyTheDog/Content/__ExternalActors__/FartyTheDog/FG_Sandbox/5/VB/DS3RLPEED3WQVSFQMIPRFI.uasset'
+[2024.01.28-17.41.49:970][927]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 1.75 sec)
+[2024.01.28-17.41.49:971][927]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.28-17.41.49:971][927]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FartyTheDog/FG_Sandbox.FG_Sandbox:PersistentLevel.StaticMeshActor_UAID_F4B52008433FE7D301_1145662640
+[2024.01.28-17.41.49:971][927]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FartyTheDog/FG_Sandbox.FG_Sandbox:PersistentLevel.StaticMeshActor_UAID_F4B52008433FE7D301_1153928641
+[2024.01.28-17.41.51:781][129]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.28-17.41.51:787][129]LogContentBundle: [FG_Sandbox(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.28-17.41.51:787][129]LogWorldPartition: Display: GenerateStreaming for 'FG_Sandbox' started...
+[2024.01.28-17.41.51:795][129]LogWorldPartition: Display: GenerateStreaming for 'FG_Sandbox' took 8 ms (total: 355 ms)
+[2024.01.28-17.41.51:795][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-17.41.51:795][129]PIE: New page: PIE session: FG_Sandbox (Jan 28, 2024, 11:41:51 AM)
+[2024.01.28-17.41.51:796][129]LogPlayLevel: Display: Creating online subsystem for client :Context_37
+[2024.01.28-17.41.51:797][129]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.01.28-17.41.51:816][130]LogPlayLevel: Creating play world package: /Game/FartyTheDog/UEDPIE_0_FG_Sandbox
+[2024.01.28-17.41.51:842][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025979s)
+[2024.01.28-17.41.51:842][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FartyTheDog/FG_Sandbox.FG_Sandbox to /Game/FartyTheDog/UEDPIE_0_FG_Sandbox.FG_Sandbox (0.026016s)
+[2024.01.28-17.41.51:855][130]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.01.28-17.41.51:856][130]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-17.41.51:856][130]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-17.41.51:857][130]LogAIModule: Creating AISystem for world FG_Sandbox
+[2024.01.28-17.41.51:857][130]LogWorldPartition: ULevel::OnLevelLoaded(FG_Sandbox)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.28-17.41.51:857][130]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.28-17.41.51:857][130]LogWorldPartition: UWorldPartition::Initialize : World = FG_Sandbox, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.28-17.41.51:857][130]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.28-17.41.51:864][130]LogContentBundle: [FG_Sandbox(Standalone)] Creating new contrainer.
+[2024.01.28-17.41.51:864][130]LogWorldPartition: Display: WorldPartition initialize took 6 ms (total: 2.26 sec)
+[2024.01.28-17.41.51:864][130]LogPlayLevel: PIE: World Init took: (0.007646s)
+[2024.01.28-17.41.51:864][130]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2024.01.28-17.41.51:864][130]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-17.41.51:864][130]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-17.41.51:864][130]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-17.41.51:864][130]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-17.41.51:864][130]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.28-17.41.51:864][130]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-17.41.51:864][130]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.28-17.41.51:864][130]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-17.41.51:865][130]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-17.41.51:865][130]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-17.41.51:865][130]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-17.41.51:867][130]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.28-17.41.51:879][130]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (High Definition Audio Device)
+[2024.01.28-17.41.51:879][130]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-17.41.51:879][130]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-17.41.51:879][130]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-17.41.51:880][130]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2024.01.28-17.41.51:880][130]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2024.01.28-17.41.51:881][130]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2024.01.28-17.41.51:881][130]LogInit: FAudioDevice initialized with ID 26.
+[2024.01.28-17.41.51:881][130]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2024.01.28-17.41.51:881][130]LogAudio: Display: Audio Device (ID: 26) registered with world 'FG_Sandbox'.
+[2024.01.28-17.41.51:881][130]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2024.01.28-17.41.51:914][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-17.41.51:914][130]LogLoad: Game class is 'BP_FartyGameMode_C'
+[2024.01.28-17.41.51:933][130]LogWorld: Bringing World /Game/FartyTheDog/UEDPIE_0_FG_Sandbox.FG_Sandbox up for play (max tick rate 0) at 2024.01.28-14.41.51
+[2024.01.28-17.41.51:934][130]LogWorld: Bringing up level for play took: 0.019120
+[2024.01.28-17.41.51:939][130]PIE: Server logged in
+[2024.01.28-17.41.51:941][130]PIE: Play in editor total start time 0.153 seconds.
+[2024.01.28-17.41.51:952][130]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.01.28-17.41.53:191][248]LogBlueprintUserMessages: [AnimNotify_AkEvent_C_0] WARNING: AkComponent has been created in the notify. It will be using default values for all properties. 
+[2024.01.28-17.41.53:191][248]LogBlueprintUserMessages: [AnimNotify_AkEvent_C_0] WARNING: Should you wish to use different values, please attach an AkComponent to the BP_Ozzy_Character.CharacterMesh0 Ozzy_Mesh component on the BP_Ozzy_Character actor beforehand.
+[2024.01.28-17.41.55:683][512]LogBlueprintUserMessages: [AnimNotify_AkEvent_C_0] WARNING: AkComponent has been created in the notify. It will be using default values for all properties. 
+[2024.01.28-17.41.55:683][512]LogBlueprintUserMessages: [AnimNotify_AkEvent_C_0] WARNING: Should you wish to use different values, please attach an AkComponent to the BP_PoliceOfficer2.CharacterMesh0 Base_Mesh component on the BP_PoliceOfficer2 actor beforehand.
+[2024.01.28-17.41.57:071][662]LogBlueprintUserMessages: [BP_PoliceOfficer2_C_UAID_F4B52008433FE6D301_1536011456] can attack again
+[2024.01.28-17.42.01:049][ 93]LogBlueprintUserMessages: [BP_PoliceOfficer2_C_UAID_F4B52008433FE6D301_1536011456] can attack again
+[2024.01.28-17.42.01:099][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-17.42.01:099][ 95]LogWorld: BeginTearingDown for /Game/FartyTheDog/UEDPIE_0_FG_Sandbox
+[2024.01.28-17.42.01:099][ 95]LogSlate: Window 'FartyTheDog Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.28-17.42.01:108][ 95]LogWorld: UWorld::CleanupWorld for FG_Sandbox, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-17.42.01:110][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-17.42.01:110][ 95]LogContentBundle: [FG_Sandbox(Standalone)] Deleting container.
+[2024.01.28-17.42.01:114][ 95]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-17.42.01:118][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-17.42.01:133][ 95]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2024.01.28-17.42.01:133][ 95]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.01.28-17.42.01:135][ 95]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.01.28-17.42.01:144][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.28-17.42.01:202][ 96]LogPlayLevel: Display: Destroying online subsystem :Context_37
